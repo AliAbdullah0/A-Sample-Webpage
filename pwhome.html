@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sample Webpage Home | HTML CSS</title>
+</head>
+
+<body class="bg-slate-950">
+    <!-- nav bar here -->
+    <nav class="w-full h-14 bg-[#020617] flex justify-between px-3  md:px-4 items-center">
+        <div><img class="w-20" src="https://www.freepnglogos.com/uploads/company-logo-png/company-logo-transparent-png-19.png" alt=""></div>
+        <ul class="md:flex font-semibold hidden">
+            <li class="mx-[10px] cursor-pointer text-white">Home</li>
+            <li class="mx-[10px] cursor-pointer text-white">About</li>
+            <li class="mx-[10px] cursor-pointer text-white">Contact</li>
+        </ul>
+        <div class="hidden md:block px-2 py-2 bg-indigo-950 text-white rounded-md cursor-pointer hover:bg-indigo-900">Login/Signup</div>
+        <div class="md:hidden">
+            <a href="#" class="text-4xl" id="menu"><img class="w-5 fil" src="https://cdn-icons-png.flaticon.com/128/10949/10949819.png" alt=""></a>
+        </div>
+
+        <!-- navbar ends here -->
+
+    </nav>
+    <div class="md:hidden hidden bg-[#020617] h-auto w-full z-10 absolute justify-center transition-all ease-in " id="nav-bar">
+        <ul class="flex w-full justify-center items-center flex-col p-2 text-white ">
+            <a href="#">
+                <li>Home</li>
+            </a>
+            <a href="#">
+                <li>About Us</li>
+            </a>
+            <a href="#">
+                <li>Contact</li>
+            </a>
+            <li id="close-btn" class="w-auto font-semibold "><img class="h-6 w-6" src="https://cdn-icons-png.flaticon.com/128/2763/2763138.png" alt=""></li>
+        </ul>
+    </div>
+    <!-- img section starts here -->
+    <header class="w-full h-auto">
+        <img class="w-full hidden md:block" src="https://cdn.pwskills.com/assets/uploads/banners/63a18cca807628f5968f528a/web.jpg" alt="">
+        <img class="w-full md:hidden block" src="https://cdn.pwskills.com/assets/uploads/banners/63a18cca807628f5968f528a/mobile.jpg" alt="">
+    </header>
+    <!-- img section ends here -->
+
+    <!-- our students section -->
+    <div class="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10">
+        <div class="w-full h-auto flex flex-wrap items-center text-center flex-col">
+            <p class="text-indigo-700 font-bold text-2xl md:text-4xl text-center">"Pure Hardwork, No Shortcuts!"</p>
+            <div class="w-36 h-1 border-b-4 border-yellow-400 mt-2 rounded-2xl md:mt-4 mb-12"></div>
+        </div>
+        <div class="w-full flex flex-wrap justify-evenly ">
+            <div class="w-46 flex flex-col items-center mb-12">
+                <img class="" src="https://cdn-icons-png.flaticon.com/128/15022/15022034.png" alt="">
+                <p class="text-2xl font-bold text-white ">600+</p>
+                <p class="text-2xl font-semibold text-gray-500">Different Courses</p>
+            </div>
+            <div class="w-46 flex flex-col items-center mb-12">
+                <img class="" src="https://cdn-icons-png.flaticon.com/128/15021/15021988.png" alt="">
+                <p class="text-2xl font-bold text-white ">700,000+</p>
+                <p class="text-2xl font-semibold text-gray-500">Enrolled</p>
+            </div>
+            <div class="w-46 flex flex-col items-center mb-12">
+                <img class="" src="https://cdn-icons-png.flaticon.com/128/15022/15022030.png" alt="">
+                <p class="text-2xl font-bold text-white ">10,000+</p>
+                <p class="text-2xl font-semibold text-gray-500">Successful Transition</p>
+            </div>
+        </div>
+    </div>
+    <!-- our student section ends here -->
+    <!-- Product section-->
+    <div class="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10">
+        <div class="w-full h-auto flex flex-wrap items-center text-center flex-col">
+            <p class="text-indigo-700 font-bold text-3xl md:text-4xl text-center">Our Products</p>
+            <div class="w-36 h-1 border-b-4 border-yellow-400 mt-2 rounded-2xl md:mt-4 mb-12"></div>
+        </div>
+        <div class="w-[90%] h-auto flex flex-wrap justify-around">
+            <div class="w-64 flex flex-col items-center mb-12 p-2">
+                <img src="https://cdn-icons-png.flaticon.com/128/15022/15022010.png" alt="">
+                <p class="text-3xl md:text-4xl font-bold text-white">PW Skills Lab</p>
+                <p class="text-xl text-gray-500 ">Supercharge your project development with our robust lab.</p>
+            </div>
+            <div class="w-64 flex flex-col items-center mb-12 p-2">
+                <img src="https://cdn-icons-png.flaticon.com/128/15022/15022039.png" alt="">
+                <p class="text-3xl md:text-4xl font-bold text-white">Job Portal</p>
+                <p class="text-xl text-gray-500 ">Supercharge your project development with our robust lab.</p>
+            </div>
+            <div class="w-64 flex flex-col items-center mb-12p-2">
+                <img src="https://cdn-icons-png.flaticon.com/128/15022/15022047.png" alt="">
+                <p class="text-3xl md:text-4xl font-bold text-white">Visible Growth</p>
+                <p class="text-xl text-gray-500 ">See Visible Growth</p>
+            </div>
+            <div class="w-64 flex flex-col items-center mb-12 p-2">
+                <img src="https://cdn-icons-png.flaticon.com/128/15022/15022026.png" alt="">
+                <p class="text-3xl md:text-4xl font-bold text-white">Get Profited</p>
+                <p class="text-xl text-gray-500 ">More Profit</p>
+            </div>
+            <div class="w-64 flex flex-col items-center mb-12 p-2">
+                <img src="https://cdn-icons-png.flaticon.com/128/15022/15022062.png" alt=" ">
+                <p class="text-3xl md:text-4xl font-bold text-white ">Get Certified</p>
+                <p class="text-xl text-gray-500 ">Certification Done!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- our product section ends here -->
+
+    <!-- footer starts here -->
+    <footer class="w-full h-auto
+     bg-gray-900 px-4 text-white pt-8 flex flex-col md:flex-row flex-wrap justify-between md:px-12 md:p-12">
+        <div>
+            <div class="flex flex-col flex-wrap md:flex-row  items-center ">
+                <img class="w-20" src="https://www.freepnglogos.com/uploads/company-logo-png/company-logo-transparent-png-19.png" alt="">
+                <p class="font-bold text-lg text-white">My Sample Webpage</p>
+            </div>
+            <a href="#">Email us:xyz@gmail.com</a>
+        </div>
+        <div class="flex flex-col">
+            <div class="text-white font-bold">PW Skills</div>
+            <div class="w-[12%] md:w-full border-yellow-500 border-2 rounded-lg"></div>
+            <ul>
+                <li>About Us</li>
+                <li>FAQs</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+        <div class="flex flex-col">
+            <div class="text-white font-bold">Products</div>
+            <div class="w-[12%] border-yellow-500 border-2 rounded-lg md:w-full"></div>
+            <ul>
+                <li>PW Skills Lab</li>
+                <li>Job Portal</li>
+                <li>Growth</li>
+            </ul>
+        </div>
+        <div class="flex flex-col">
+            <div class="text-white font-bold">Links</div>
+            <div class="w-[8%] border-yellow-500 border-2 rounded-lg md:w-full"></div>
+            <ul>
+                <li><a href="#">Discord</a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+    <script>
+        let menu = document.querySelector("#menu");
+        let nav = document.querySelector("#nav-bar");
+        let closeBtn = document.querySelector("#close-btn");
+        menu.addEventListener("click", () => {
+            nav.style.display = "block";
+        })
+        closeBtn.addEventListener("click", () => {
+            nav.style.display = "none";
+        })
+    </script>
+</body>
+
+</html>
